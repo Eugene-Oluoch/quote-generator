@@ -1,0 +1,45 @@
+@import "globals";
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-quote {
+        width: 350px;
+        background-color: #d7cecc;
+        border-radius: .2rem;
+        padding: 3.5rem 1rem;
+        color: #6c757d;
+        &-p {
+            & i {
+                padding-right: 1rem;
+            }
+        }
+    }
+    &-button {
+        margin-top: 1rem;
+        & button {
+            width: 350px;
+            padding: .5rem .5rem;
+            background-color: #64b6ac;
+            color: white;
+            border: 1px solid #64b6ac;
+            transition: all 0.3s ease-in-out;
+            border-radius: .2rem;
+            cursor: pointer;
+            &:hover {
+                transition: all 0.3s ease-in-out;
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}
+
+.main-quote-author {
+    position: relative;
+    left: 10rem;
+    top: .5rem;
+    color: #64b6ac;
+}

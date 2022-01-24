@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-quote {
+  width: 350px;
+  background-color: #d7cecc;
+  border-radius: .2rem;
+  padding: 3.5rem 1rem;
+  color: #6c757d;
+}
+
+.main-quote-p i {
+  padding-right: 1rem;
+}
+
+.main-button {
+  margin-top: 1rem;
+}
+
+.main-button button {
+  width: 350px;
+  padding: .5rem .5rem;
+  background-color: #64b6ac;
+  color: white;
+  border: 1px solid #64b6ac;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.main-button button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  color: black;
+}
+
+.main-quote-author {
+  position: relative;
+  left: 10rem;
+  top: .5rem;
+  color: #64b6ac;
+}
+/*# sourceMappingURL=style.css.map */
