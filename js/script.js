@@ -16,7 +16,7 @@ quoteChange = () => {
         author.innerHTML = '-- Mahatma Gandhi';
     } else if (num === 4) {
         quote.innerHTML = '<i class="fas fa-quote-left fa-5x"></i>To live is the rarest thing in the world.Most people exist, that is all"';
-        author.innerHTML = '-- OScar Wilde';
+        author.innerHTML = '-- Oscar Wilde';
     } else if (num === 5) {
         quote.innerHTML = '<i class="fas fa-quote-left fa-5x"></i>We accept the love we think we deserve"';
         author.innerHTML = '-- Stephen Chbosky';
