@@ -3,7 +3,7 @@ quoteChange = () => {
     let author = document.getElementById('author');
     let num = Math.floor(Math.random() * 11);
     if (num === 0) {
-        quote.innerHTML = '<i class="fas fa-quote-left fa-5x"></i>Be yourself, evertone else is already taken"';
+        quote.innerHTML = '<i class="fas fa-quote-left fa-5x"></i>Be yourself, everyone else is already taken"';
         author.innerHTML = '-- Oscar Wilde';
     } else if (num === 1) {
         quote.innerHTML = '<i class="fas fa-quote-left fa-5x"></i>So many books, so little time"';
